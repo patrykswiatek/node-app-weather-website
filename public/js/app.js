@@ -1,11 +1,7 @@
-console.log("Client side js file is loaded");
-
 const weatherForm = document.querySelector("form");
 const search = document.querySelector("input");
 const messageOne = document.querySelector("#message-1");
 const messageTwo = document.querySelector("#message-2");
-
-// messageOne.textContent = 'From js';
 
 weatherForm.addE2ventListener("submit", e => {
   e.preventDefault();
